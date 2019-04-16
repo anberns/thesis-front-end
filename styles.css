@@ -40,7 +40,14 @@ img {
 .hero {
   margin: 0;
   padding: 0;
-  height: 300px;
+  width: 100%;
+}
+
+.hero-background {
+  margin: 0;
+  padding: 0;
+  height: 770px;
+  width: 100%;
 }
 
 .navbar {
@@ -51,7 +58,7 @@ img {
 
 .search-text {
   position: absolute;
-  top: 15%;
+  top: 200px;
   color: white;
   font-size: 3em;
   width: 100%;
@@ -60,7 +67,7 @@ img {
 
 .search-form {
   position: absolute;
-  top: 25%;
+  top: 300px;
   font-size: 3em;
   width: 100%;
   text-align: center;
@@ -84,7 +91,7 @@ img {
 
 .learn-more-section {
   position: absolute;
-  top: 50%;
+  top: 570px;
   color: white;
   font-size: 1em;
   width: 100%;
