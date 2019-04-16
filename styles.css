@@ -221,6 +221,33 @@ img {
   color: rgb(122, 132, 250) 
 }
 
+.misc-links-section {
+  position: absolute;
+  top: 2000px;
+  width: 100%; 
+}
+
+.misc-links-div {
+  width: 70%;
+  text-align: center; 
+}
+
+.misc-links-card {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  border: solid;
+}
+
+.misc-link {
+  color: white;
+  display: block;
+  text-align: left;
+  text-decoration: none;
+  margin: 12px;
+  font-size: .8em;
+}
+
 .footer-section {
   position: absolute;
   top: 1450px;
@@ -236,7 +263,11 @@ img {
   height: 770px;
   width: 100%;
 }
+.bold {
+  font-weight: bold;
+}
 
 * {
   margin: 0 auto;
+  font-family: sans-serif;
 }
