@@ -1,0 +1,55 @@
+img {
+  width: 100%;
+  min-width: 100%;
+}
+
+.brand {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+}
+
+.brand-div {
+  width: 50%;
+  box-sizing: border-box;
+  display: inline;
+  padding-left: 5%;
+}
+
+.links-div {
+  width: 50%;
+  box-sizing: border-box;
+  display: inline;
+  float: right;
+  text-align: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  padding: 1% 5%;
+}
+
+.nav-link:hover, .active {
+  background-color: lime;
+  border-color: lime;
+  border: 1px;
+  border-radius: 5px;
+}
+
+.hero {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  position: absolute;
+  top: 2%;
+  width: 100%;
+}
+
+
+
+* {
+  margin: 0 auto;
+}
