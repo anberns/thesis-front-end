@@ -81,6 +81,10 @@ img {
   color: lightgray;
   font-size: 16px;
   padding-left: 8px;
+}
+
+.search-input:focus {
+  outline: 3px solid orange;
 
 }
 
@@ -92,6 +96,7 @@ img {
   border-radius: 7px;
   border: none;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .learn-more-section {
@@ -192,6 +197,11 @@ img {
   background-color: rgb(252, 252, 253);
   text-align: left;
   margin: 10px;
+}
+
+.service-card:hover{
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .service-card-image {
