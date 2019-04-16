@@ -105,7 +105,7 @@ img {
 
 .more-information-section {
   position: absolute;
-  top: 800px;
+  top: 900px;
   width: 100%;
 }
 
@@ -130,6 +130,30 @@ img {
   width: 100px;
   text-align: center;
   padding: 10px 35px;
+}
+
+.our-services-section {
+  position: absolute;
+  top: 1300px;
+  width: 100%;
+}
+
+.our-services-header {
+  color: rgb(86, 33, 163);
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.our-services-hr-div {
+  margin-top: 10px;
+}
+
+.our-services-hr {
+  width: 5%;
+  height: 5px;
+  border: none;
+  background-color: rgb(86, 33, 163);
+  border-radius: 7px;
 }
 
 * {
