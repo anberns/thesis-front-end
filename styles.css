@@ -236,7 +236,7 @@ img {
   width: 150px;
   height: 150px;
   display: inline-block;
-  border: solid;
+  margin:  0px 10px;
 }
 
 .misc-link {
@@ -245,7 +245,38 @@ img {
   text-align: left;
   text-decoration: none;
   margin: 12px;
-  font-size: .8em;
+  font-size: .7em;
+}
+
+.logo-link {
+  font-size: .6em;
+  color: rgb(122, 132, 250);
+  background-color: white;
+  text-decoration: none;
+  margin: 8px;
+  width: 60px;
+  text-align: center;
+  display: block;
+  border-radius: 25px;
+}
+
+.low-margin-top {
+  margin-top: 2px;
+}
+
+.low-margin-bottom {
+  margin-bottom: 2px;
+}
+
+.low-margin-middle {
+  margin: 2px 12px;
+}
+.high-margin-bottom{
+  margin-bottom: 31px;
+}
+
+.purple {
+  color: rgb(122, 132, 250); 
 }
 
 .footer-section {
@@ -265,6 +296,8 @@ img {
 }
 .bold {
   font-weight: bold;
+  margin-bottom: 20px;
+  font-size: .8em;
 }
 
 * {
