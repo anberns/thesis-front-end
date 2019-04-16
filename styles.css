@@ -130,6 +130,7 @@ img {
   width: 100px;
   text-align: center;
   padding: 10px 35px;
+  font-size: .8em;
 }
 
 .contact-link {
@@ -143,6 +144,7 @@ img {
   text-align: center;
   padding: 10px 35px;
   box-shadow: 3px 3px 3px;
+  font-size: .8em;
 }
 
 .our-services-section {
