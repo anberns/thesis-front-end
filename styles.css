@@ -48,7 +48,38 @@ img {
   width: 100%;
 }
 
+.search-text {
+  position: absolute;
+  top: 15%;
+  color: white;
+  font-size: 3em;
+  width: 100%;
+  text-align: center;
+}
 
+.search-form {
+  position: absolute;
+  top: 25%;
+  font-size: 3em;
+  width: 100%;
+  text-align: center;
+}
+
+.search-input {
+  width: 300px;
+  height: 40px;
+  border: none;
+  border-radius: 7px;
+}
+
+.search-button {
+  width: 80px;
+  height: 40px;
+  background-color: lime;
+  color: white;
+  border-radius: 7px;
+  border: none;
+}
 
 * {
   margin: 0 auto;
