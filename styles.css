@@ -132,6 +132,19 @@ img {
   padding: 10px 35px;
 }
 
+.contact-link {
+  text-decoration: none;
+  background-color: white;
+  color: rgb(122, 132, 250);
+  border-color: white;
+  border: 1px;
+  border-radius: 7px; 
+  width: 100px;
+  text-align: center;
+  padding: 10px 35px;
+  box-shadow: 3px 3px 3px;
+}
+
 .our-services-section {
   position: absolute;
   top: 1300px;
@@ -172,6 +185,38 @@ img {
   background-color: rgb(252, 252, 253);
   text-align: left;
   margin: 10px;
+}
+.ready-section {
+  position: absolute;
+  top: 1800px;
+  width: 100%;
+}
+.ready-cards-div {
+  width: 70%;
+  text-align: center;
+}
+
+.ready-card{
+  display: inline-block;
+  width: 400px;
+  height: 100px;
+  background-color: rgb(255, 255, 255, 1);
+  text-align: left;
+  margin: 10px;
+}
+
+.right {
+  text-align: right;
+}
+
+.are-you {
+  font-size: 1.5em;
+  color: rgb(122, 132, 250);
+}
+
+.create-account {
+  font-size: 1.5em;
+  color: rgb(122, 132, 250) 
 }
 
 .footer-section {
