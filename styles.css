@@ -78,6 +78,10 @@ img {
   height: 40px;
   border: none;
   border-radius: 7px;
+  color: lightgray;
+  font-size: 16px;
+  padding-left: 8px;
+
 }
 
 .search-button {
@@ -87,6 +91,7 @@ img {
   color: white;
   border-radius: 7px;
   border: none;
+  font-size: 16px;
 }
 
 .learn-more-section {
@@ -188,6 +193,34 @@ img {
   text-align: left;
   margin: 10px;
 }
+
+.service-card-image {
+  width: 100px;
+  height: 100px;
+  text-align: left;
+  display: inline-block;
+  padding: 30px 10px 10px 10px;
+  float: left;
+}
+
+.service-card-heading-div {
+  display: inline-block;
+  float: left;
+  padding: 30px 10px 10px 10px;
+}
+
+.service-card-text-div {
+  display: inline-block;
+  float: left;
+  width: 250px;
+  padding: 0px 10px 10px 10px;
+  color: gray;
+}
+
+.service-card-heading {
+  font-weight: bold;
+}
+
 .ready-section {
   position: absolute;
   top: 1800px;
