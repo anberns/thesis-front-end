@@ -31,8 +31,8 @@ img {
 }
 
 .nav-link:hover, .active {
-  background-color: lime;
-  border-color: lime;
+  background-color: rgb(122, 193, 175);
+  border-color: rgb(122, 193, 175);
   border: 1px;
   border-radius: 5px;
 }
@@ -40,6 +40,7 @@ img {
 .hero {
   margin: 0;
   padding: 0;
+  height: 300px;
 }
 
 .navbar {
@@ -75,10 +76,24 @@ img {
 .search-button {
   width: 80px;
   height: 40px;
-  background-color: lime;
+  background-color: rgb(122, 193, 175);
   color: white;
   border-radius: 7px;
   border: none;
+}
+
+.learn-more-section {
+  position: absolute;
+  top: 50%;
+  color: white;
+  font-size: 1em;
+  width: 100%;
+  text-align: center;
+}
+
+.learn-more-arrow {
+  width: 60px;
+  margin-top: 20px;
 }
 
 * {
