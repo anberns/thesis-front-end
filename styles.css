@@ -1,362 +1,365 @@
-@media only screen and (min-width: 1280px) {
-  img {
-    width: 100%;
-    min-width: 100%;
-  }
 
-  .brand {
-    text-decoration: none;
-    color: white;
-    font-size: 1.5em;
-  }
-
-  .brand-div {
-    width: 50%;
-    box-sizing: border-box;
-    display: inline;
-    padding-left: 5%;
-  }
-
-  .links-div {
-    width: 50%;
-    box-sizing: border-box;
-    display: inline;
-    float: right;
-    text-align: center;
-  }
-
-  .nav-link {
-    text-decoration: none;
-    color: white;
-    padding: 10px 35px;
-  }
-
-  .nav-link:hover, .active {
-    background-color: rgb(122, 193, 175);
-    border-color: rgb(122, 193, 175);
-    border: 1px;
-    border-radius: 7px;
-  }
-
-  .hero {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-  }
-
-  .hero-background {
-    margin: 0;
-    padding: 0;
-    height: 770px;
-    width: 100%;
-  }
-
-  .navbar {
-    position: absolute;
-    top: 2%;
-    width: 100%;
-  }
-
-  .search-text {
-    position: absolute;
-    top: 200px;
-    color: white;
-    font-size: 3em;
-    width: 100%;
-    text-align: center;
-  }
-
-  .search-form {
-    position: absolute;
-    top: 300px;
-    font-size: 3em;
-    width: 100%;
-    text-align: center;
-  }
-
-  .search-input {
-    width: 300px;
-    height: 40px;
-    border: none;
-    border-radius: 7px;
-    color: lightgray;
-    font-size: 16px;
-    padding-left: 8px;
-  }
-
-  .search-input:focus {
-    outline: 3px solid orange;
-
-  }
-
-  .search-button {
-    width: 80px;
-    height: 40px;
-    background-color: rgb(122, 193, 175);
-    color: white;
-    border-radius: 7px;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-  }
-
-  .learn-more-section {
-    position: absolute;
-    top: 570px;
-    color: white;
-    font-size: 1em;
-    width: 100%;
-    text-align: center;
-  }
-
-  .learn-more-text-div {
-    width: 60%;
-  }
-  .learn-more-arrow {
-    width: 60px;
-    margin-top: 20px;
-  }
-
-  .more-information-section {
-    position: absolute;
-    top: 900px;
-    width: 100%;
-  }
-
-  .more-information-text {
-    width: 60%;
-    color: rgb(86, 33, 163);
-    font-size: 1.5em;
-    text-align: center;
-    margin-bottom: 50px;
-
-  }
-  .create-account-link-div {
-    text-align: center;
-  }
-  .create-account-link {
-    text-decoration: none;
-    color: white;
-    background-color: rgb(122, 132, 250);
-    border-color: rgb(122, 132, 250);
-    border: 1px;
-    border-radius: 7px; 
-    width: 100px;
-    text-align: center;
-    padding: 10px 35px;
-    font-size: .8em;
-  }
-
-  .contact-link {
-    text-decoration: none;
-    background-color: white;
-    color: rgb(122, 132, 250);
-    border-color: white;
-    border: 1px;
-    border-radius: 7px; 
-    width: 100px;
-    text-align: center;
-    padding: 10px 35px;
-    box-shadow: 3px 3px 3px;
-    font-size: .8em;
-  }
-
-  .our-services-section {
-    position: absolute;
-    top: 1300px;
-    width: 100%;
-  }
-
-  .our-services-header {
-    color: rgb(86, 33, 163);
-    font-size: 1.5em;
-    text-align: center;
-  }
-
-  .our-services-hr-div {
-    margin-top: 10px;
-  }
-
-  .our-services-hr {
-    width: 5%;
-    height: 5px;
-    border: none;
-    background-color: rgb(86, 33, 163);
-    border-radius: 7px;
-    margin-bottom: 25px;
-  }
-
-  .service-cards-div {
-    width: 90%;
-    text-align: center;
-  }
-
-  .service-card {
-    display: inline-block;
-    width: 400px;
-    height: 150px;
-    border-style: solid;
-    border-width: 3px;
-    border-color: rgb(247, 245, 251);
-    background-color: rgb(252, 252, 253);
-    text-align: left;
-    margin: 10px;
-  }
-
-  .service-card:hover{
-    transform: scale(1.1);
-    cursor: pointer;
-  }
-
-  .service-card-image {
-    width: 100px;
-    height: 100px;
-    text-align: left;
-    display: inline-block;
-    padding: 30px 10px 10px 10px;
-    float: left;
-  }
-
-  .service-card-heading-div {
-    display: inline-block;
-    float: left;
-    padding: 30px 10px 10px 10px;
-  }
-
-  .service-card-text-div {
-    display: inline-block;
-    float: left;
-    width: 250px;
-    padding: 0px 10px 10px 10px;
-    color: gray;
-  }
-
-  .service-card-heading {
-    font-weight: bold;
-  }
-
-  .ready-section {
-    position: absolute;
-    top: 1800px;
-    width: 100%;
-  }
-  .ready-cards-div {
-    width: 70%;
-    text-align: center;
-  }
-
-  .ready-card{
-    display: inline-block;
-    width: 400px;
-    height: 100px;
-    background-color: rgb(255, 255, 255, 0);
-    text-align: left;
-    margin: 10px;
-  }
-
-  .right {
-    text-align: right;
-  }
-
-  .are-you {
-    font-size: 1.5em;
-    color: rgb(122, 132, 250);
-  }
-
-  .create-account {
-    font-size: 1.5em;
-    color: rgb(122, 132, 250) 
-  }
-
-  .misc-links-section {
-    position: absolute;
-    top: 2000px;
-    width: 100%; 
-  }
-
-  .misc-links-div {
-    width: 95%;
-    text-align: center; 
-  }
-
-  .misc-links-card {
-    width: 150px;
-    height: 150px;
-    display: inline-block;
-    margin:  0px 10px;
-  }
-
-  .misc-link {
-    color: white;
-    display: block;
-    text-align: left;
-    text-decoration: none;
-    margin: 12px;
-    font-size: .7em;
-  }
-
-  .logo-link {
-    font-size: .6em;
-    color: rgb(122, 132, 250);
-    background-color: white;
-    text-decoration: none;
-    margin: 8px;
-    width: 60px;
-    text-align: center;
-    display: block;
-    border-radius: 25px;
-  }
-
-  .low-margin-top {
-    margin-top: 2px;
-  }
-
-  .low-margin-bottom {
-    margin-bottom: 2px;
-  }
-
-  .low-margin-middle {
-    margin: 2px 12px;
-  }
-  .high-margin-bottom{
-    margin-bottom: 31px;
-  }
-
-  .purple {
-    color: rgb(122, 132, 250); 
-  }
-
-  .footer-section {
-    position: absolute;
-    top: 1450px;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    z-index: -1;
-  }
-
-  .footer-background {
-    margin: 0;
-    padding: 0;
-    height: 770px;
-    width: 100%;
-  }
-  .bold {
-    font-weight: bold;
-    margin-bottom: 20px;
-    font-size: .8em;
-  }
-
-  * {
-    margin: 0 auto;
-    font-family: sans-serif;
-  }
+img {
+  width: 100%;
+  min-width: 100%;
 }
 
-@media only screen and (min-width: 960px) and (max-width: 1279px) {
+.container {
+  background-color: rgb(86,33,163);
+  padding-top: 2%;
+}
+
+.brand {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+}
+
+.brand-div {
+  width: 50%;
+  box-sizing: border-box;
+  display: inline;
+  padding-left: 5%;
+}
+
+.links-div {
+  width: 50%;
+  box-sizing: border-box;
+  display: inline;
+  float: right;
+  text-align: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  padding: 10px 35px;
+}
+
+.nav-link:hover, .active {
+  background-color: rgb(122, 193, 175);
+  border-color: rgb(122, 193, 175);
+  border: 1px;
+  border-radius: 7px;
+}
+.hamburger-div {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  float: right;
+  z-index: 1;
+  margin: -20px 30px 0px 0px;
+  visibility: hidden;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.search-section {
+  margin-top: 10%;
+}
+
+.search-text {
+  color: white;
+  font-size: 3em;
+  width: 100%;
+  text-align: center;
+}
+
+.search-form {
+  font-size: 1.5em;
+  width: 100%;
+  text-align: center;
+}
+
+.search-input {
+  width: 300px;
+  height: 40px;
+  border: none;
+  border-radius: 7px;
+  color: lightgray;
+  font-size: 16px;
+  padding-left: 8px;
+}
+
+.search-input:focus {
+  outline: 3px solid orange;
+
+}
+
+.search-button {
+  width: 80px;
+  height: 40px;
+  background-color: rgb(122, 193, 175);
+  color: white;
+  border-radius: 7px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.learn-more-section {
+  color: white;
+  font-size: 1em;
+  width: 100%;
+  text-align: center;
+  margin-top: 18%;
+}
+
+.learn-more-text-div {
+  width: 60%;
+}
+.learn-more-arrow {
+  width: 60px;
+  margin-top: 20px;
+}
+
+.more-information-section {
+  width: 100%;
+  margin-top: 18%;
+}
+
+.more-information-text {
+  width: 60%;
+  color: rgb(86, 33, 163);
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+.create-account-link-div {
+  text-align: center;
+}
+.create-account-link {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(122, 132, 250);
+  border-color: rgb(122, 132, 250);
+  border: 1px;
+  border-radius: 7px; 
+  width: 100px;
+  text-align: center;
+  padding: 10px 35px;
+  font-size: .8em;
+}
+
+.contact-link {
+  text-decoration: none;
+  background-color: white;
+  color: rgb(122, 132, 250);
+  border-color: white;
+  border: 1px;
+  border-radius: 7px; 
+  width: 100px;
+  text-align: center;
+  padding: 10px 35px;
+  box-shadow: 3px 3px 3px;
+  font-size: .8em;
+}
+
+.our-services-section {
+  width: 100%;
+  margin-top: 18%;
+}
+
+.our-services-header {
+  color: rgb(86, 33, 163);
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.our-services-hr-div {
+  margin-top: 10px;
+}
+
+.our-services-hr {
+  width: 5%;
+  height: 5px;
+  border: none;
+  background-color: rgb(86, 33, 163);
+  border-radius: 7px;
+  margin-bottom: 2%;
+}
+
+.service-cards-div {
+  width: 90%;
+  text-align: center;
+}
+
+.service-card {
+  display: inline-block;
+  width: 35%;
+  height: 16%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(247, 245, 251);
+  background-color: rgb(252, 252, 253);
+  text-align: left;
+  margin: 10px;
+}
+
+.service-card:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.service-card-image {
+  width: 30%;
+  height: 30%;
+  text-align: left;
+  display: inline-block;
+  padding: 20px 10px 20px 10px;
+  float: left;
+}
+
+.service-card-heading-div {
+  display: inline-block;
+  float: left;
+  padding: 30px 10px 10px 10px;
+}
+
+.service-card-text-div {
+  display: inline-block;
+  float: left;
+  width: 60%;
+  padding: 0px 10px 10px 10px;
+  color: gray;
+}
+
+.service-card-heading {
+  font-weight: bold;
+}
+
+.ready-section {
+  width: 100%;
+  margin-top: 5%;
+}
+.ready-cards-div {
+  width: 95%;
+  text-align: center;
+}
+
+.ready-card{
+  display: inline-block;
+  width: 32%;
+  height: 16%;
+  background-color: rgb(255, 255, 255, 0);
+  text-align: left;
+  margin: 10px;
+}
+
+.right {
+  text-align: right;
+}
+
+.are-you {
+  font-size: 1.5em;
+  color: rgb(122, 132, 250);
+}
+
+.create-account {
+  font-size: 1.5em;
+  color: rgb(122, 132, 250) 
+}
+
+.misc-links-section {
+  width: 100%; 
+  padding: 5% 0;
+  background-color: rgb(122, 132, 250);
+  margin-top: 5%; 
+}
+
+.misc-links-div {
+  width: 95%;
+  text-align: center; 
+}
+
+.misc-links-card {
+  width: 11%;
+  height: 11%;
+  display: inline-block;
+  margin:  0px 10px;
+}
+
+.misc-link {
+  color: white;
+  display: block;
+  text-align: left;
+  text-decoration: none;
+  margin: 12px;
+  font-size: .7em;
+}
+
+.logo-link {
+  font-size: .6em;
+  color: rgb(122, 132, 250);
+  background-color: white;
+  text-decoration: none;
+  margin: 8px;
+  width: 60px;
+  text-align: center;
+  display: block;
+  border-radius: 25px;
+}
+
+.low-margin-top {
+  margin-top: 2px;
+}
+
+.low-margin-bottom {
+  margin-bottom: 2px;
+}
+
+.low-margin-middle {
+  margin: 2px 12px;
+}
+.high-margin-bottom{
+  margin-bottom: 31px;
+}
+
+.purple {
+  color: rgb(122, 132, 250); 
+}
+
+.footer-section {
+  position: relative;
+
+  width: 100%;
+  height: 25%;
+  padding: 0;
+  margin: 0;
+  z-index: -1;
+  margin-top: -50%;
+}
+
+.footer-background {
+  margin: 0;
+  padding: 0;
+  height: 770px;
+  width: 100%;
+}
+.bold {
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: .8em;
+}
+
+* {
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+@media only screen and (max-device-width: 420px) {
+
   img {
     width: 100%;
     min-width: 100%;
+  }
+
+  .container {
+    background-color: rgb(86,33,163);
+    padding-top: 2%;
   }
 
   .brand {
@@ -373,24 +376,12 @@
   }
 
   .links-div {
-    width: 50%;
+    width: 5%;
     box-sizing: border-box;
     display: inline;
     float: right;
     text-align: center;
-  }
-
-  .hamburger-div {
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    float: right;
-    z-index: 1;
-    margin: -20px 30px 0px 0px;
-  }
-
-  .hamburger {
-    cursor: pointer;
+    margin: -12% 3% 0 0;
   }
 
   .nav-link {
@@ -407,28 +398,20 @@
     border-radius: 7px;
   }
 
-  .hero {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-  }
-
-  .hero-background {
-    margin: 0;
-    padding: 0;
-    height: 770px;
-    width: 100%;
+  .hamburger {
+    width: 30px;
+    height: 30px;
   }
 
   .navbar {
-    position: absolute;
-    top: 2%;
     width: 100%;
   }
 
+  .search-section {
+    margin-top: 10%;
+  }
+
   .search-text {
-    position: absolute;
-    top: 200px;
     color: white;
     font-size: 3em;
     width: 100%;
@@ -436,9 +419,7 @@
   }
 
   .search-form {
-    position: absolute;
-    top: 300px;
-    font-size: 3em;
+    font-size: 1.5em;
     width: 100%;
     text-align: center;
   }
@@ -470,12 +451,11 @@
   }
 
   .learn-more-section {
-    position: absolute;
-    top: 570px;
     color: white;
     font-size: 1em;
     width: 100%;
     text-align: center;
+    margin-top: 18%;
   }
 
   .learn-more-text-div {
@@ -487,9 +467,8 @@
   }
 
   .more-information-section {
-    position: absolute;
-    top: 900px;
     width: 100%;
+    margin-top: 18%;
   }
 
   .more-information-text {
@@ -531,9 +510,8 @@
   }
 
   .our-services-section {
-    position: absolute;
-    top: 1300px;
     width: 100%;
+    margin-top: 18%;
   }
 
   .our-services-header {
@@ -552,7 +530,7 @@
     border: none;
     background-color: rgb(86, 33, 163);
     border-radius: 7px;
-    margin-bottom: 25px;
+    margin-bottom: 2%;
   }
 
   .service-cards-div {
@@ -562,8 +540,8 @@
 
   .service-card {
     display: inline-block;
-    width: 400px;
-    height: 150px;
+    width: 35%;
+    height: 16%;
     border-style: solid;
     border-width: 3px;
     border-color: rgb(247, 245, 251);
@@ -578,11 +556,11 @@
   }
 
   .service-card-image {
-    width: 100px;
-    height: 100px;
+    width: 30%;
+    height: 30%;
     text-align: left;
     display: inline-block;
-    padding: 30px 10px 10px 10px;
+    padding: 20px 10px 20px 10px;
     float: left;
   }
 
@@ -595,7 +573,7 @@
   .service-card-text-div {
     display: inline-block;
     float: left;
-    width: 250px;
+    width: 60%;
     padding: 0px 10px 10px 10px;
     color: gray;
   }
@@ -605,19 +583,18 @@
   }
 
   .ready-section {
-    position: absolute;
-    top: 1800px;
     width: 100%;
+    margin-top: 5%;
   }
   .ready-cards-div {
-    width: 70%;
+    width: 95%;
     text-align: center;
   }
 
   .ready-card{
     display: inline-block;
-    width: 400px;
-    height: 100px;
+    width: 32%;
+    height: 16%;
     background-color: rgb(255, 255, 255, 0);
     text-align: left;
     margin: 10px;
@@ -638,9 +615,10 @@
   }
 
   .misc-links-section {
-    position: absolute;
-    top: 2000px;
     width: 100%; 
+    padding: 5% 0;
+    background-color: rgb(122, 132, 250);
+    margin-top: 5%; 
   }
 
   .misc-links-div {
@@ -649,8 +627,8 @@
   }
 
   .misc-links-card {
-    width: 150px;
-    height: 150px;
+    width: 11%;
+    height: 11%;
     display: inline-block;
     margin:  0px 10px;
   }
@@ -696,12 +674,14 @@
   }
 
   .footer-section {
-    position: absolute;
-    top: 1450px;
+    position: relative;
+
     width: 100%;
+    height: 25%;
     padding: 0;
     margin: 0;
     z-index: -1;
+    margin-top: -50%;
   }
 
   .footer-background {
@@ -719,5 +699,6 @@
   * {
     margin: 0 auto;
     font-family: sans-serif;
-  } 
+  }
 }
+
